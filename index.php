@@ -3,14 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Google faq</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-
+       <div class="container">
+         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+         <h2>Privacy e Termini</h2>
+       </div>
     </header>
 
     <main>
-      
+      <div class="underlined">
+        <div id="list" class="container">
+          <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li>
+              Domande frequenti
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
     <!-- Creo una sorta di database che contiene la domanda e la risposta -->
     <?php
