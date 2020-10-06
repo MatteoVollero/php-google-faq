@@ -47,3 +47,23 @@ body{
 #list{
   margin-bottom: 0;
 }
+
+.container-domande{
+  max-width: 978px;
+  padding: 32px;
+  margin: auto;
+}
+
+.container-domande h2{
+  color: #3c4043;
+  margin-bottom: 15px;
+}
+
+.container p{
+  color: #272727;
+}
+
+.container-domande ul li{
+  margin-top: 20px;
+  list-style: none;
+}
